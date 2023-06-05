@@ -17,8 +17,9 @@ fetch('movies.json')
       const releaseYearElement = document.getElementById('movie-release-year');
       const nationalElement = document.getElementById('movie-nation');
       const plotElement = document.getElementById('movie-plot');
-      
+      const trailerElement = document.getElementById('movie-trailer');
 
+      trailerElement.src = movie.trailer;
       posterElement.src = movie.poster;
       titleElement.textContent = movie.title;
       starElement.textContent = movie.star;
@@ -34,3 +35,7 @@ fetch('movies.json')
   .catch(error => {
     console.error('영화 정보를 불러오는 도중 오류가 발생했습니다:', error);
   });
+
+  const drawStar = (target) => {
+    document.querySelector(`.star span`).style.width = `${target.value * 10}%`;
+  }

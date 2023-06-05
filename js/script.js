@@ -7,7 +7,7 @@ fetch('movies.json')
       const movieElement = document.createElement('div');
       movieElement.classList.add('movie-info');
       movieElement.innerHTML = `
-        <img src="${movie.poster}" class="movie-poster">
+        <img src="${movie.poster}" class="movie-poster" loading='lazy'>
         <h2>${movie.title}</h2>
         <p>${movie.release_year} · ${movie.nation}</p>
         <p>평점 ★ ${movie.star}</p>
