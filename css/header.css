@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding-top: 50px; /* 상단 메뉴 높이 만큼 본문 내용 밀어줌 */
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .navbar .logo img {
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .navbar .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar .menu li {
+    margin-left: 10px;
+  }
+  
+  .navbar .menu li a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  .navbar .menu li a:hover {
+    background-color: #ddd;
+  }
+  
+  .navbar .spacer {
+    flex-grow: 1;
+  }
+  
+  .navbar .search-form input[type="text"] {
+    padding: 5px;
+  }
+  
+  .navbar .search-form button {
+    padding: 5px 10px;
+  }
+  
+  .navbar .login-btn {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar .login-btn:hover {
+    background-color: #555;
+  }
+  

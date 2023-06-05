@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>영화 상세 정보</title>
+    <script src="js/info.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/info.css" />
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+  </head>
+  <body>
+    <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="logo.png" alt="사이트 로고"></a>
+        </div>
+        <ul class="menu">
+          <li><a href="#">영화</a></li>
+          <li><a href="#">드라마</a></li>
+          <li><a href="#">정보</a></li>
+          <li><a href="#">이벤트</a></li>
+        </ul>
+        <div class="spacer"></div>
+        <div class="search-bar">
+          <form class="search-form" action="#" method="get">
+            <input type="text" name="search" placeholder="검색어 입력">
+            <button type="submit">검색</button>
+          </form>
+        </div>
+        <div class="login">
+          <a class="login-btn" href="#">로그인</a>
+        </div>
+      </div>
+
+
+    <div id="detail-container">
+      <div>
+        <p><img src="${movie.poster}" id="movie-poster" /></p>
+      </div>
+      <div id="movie-details">
+        <h1 id="movie-title"></h1>
+        <p><strong>평점 :</strong> <span id = "movie-star"></span></p>
+        <p><strong>감독 :</strong> <span id="movie-director"></span></p>
+        <p><strong>출연 :</strong> <span id="movie-cast"></span></p>
+        <p><strong>개봉 : </strong> <span id="movie-release-year"></span>·<span id="movie-nation"></span></p>
+        <p><strong>줄거리 :</strong> <span id="movie-plot"></span></p>
+      </div>
+    </div>
+    
+  </body>
+</html>
