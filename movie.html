@@ -30,6 +30,7 @@
       </div>
     </div>
 
+    <!-- 영화 예고편 -->
     <div id="trailer-container">
       <iframe
         width="100%"
@@ -42,10 +43,13 @@
         id="movie-trailer"
       ></iframe>
     </div>
+
+    <!-- 포스터&기본정보 -->
     <div id="detail-container">
       <div>
         <p><img src="${movie.poster}" id="movie-poster" /></p>
       </div>
+
       <div id="movie-details">
         <h1 id="movie-title"></h1>
         <p>
@@ -62,11 +66,12 @@
         <p><strong>줄거리 :</strong> <span id="movie-plot"></span></p>
       </div>
     </div>
+
     <div id="detail-container">
       <div id="movie-details">
-        <h2 id="movie-ott">시청 가능 OTT</h2>
-        <p><strong>넷플릭스 </strong></p>
-        <p><strong>왓챠</strong></p>
+        <h2>시청 가능 OTT</h2>
+        <div id="movie-ott">
+        </div>
       </div>
     </div>
     <div id="detail-container">

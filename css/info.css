@@ -13,6 +13,12 @@ body {
   border-radius: 15px;
 }
 
+.ott-image {
+  width: 70px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
 #detail-container {
   background-color: #ffffff;
   display: flex;
