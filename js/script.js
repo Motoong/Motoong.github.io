@@ -22,9 +22,10 @@ fetch('movies.json')
       const overlay = document.createElement('div');
       overlay.classList.add('overlay');
       overlay.innerHTML = `
-        <h2>${movie.title}</h2>
+        <h2>${movie.title}</h2>        
         <p>${movie.release_year} · ${movie.nation}</p>
-        <p>평점 ★ ${movie.star}</p>
+        <p>${movie.genre}</p>
+        <p>★ ${movie.star}</p>       
       `;
 
       posterContainer.appendChild(moviePoster);
@@ -32,8 +33,8 @@ fetch('movies.json')
       posterContainer.appendChild(overlay);
       movieElement.appendChild(posterContainer);
 
+      // 클릭한 포스터에 맞는 영화로 이동하는 로직
       movieElement.addEventListener('click', () => {
-        // 해당 영화의 정보가 담긴 HTML 페이지로 이동
         window.location.href = 'movie.html?id=' + encodeURIComponent(movie.title);
       });
 
