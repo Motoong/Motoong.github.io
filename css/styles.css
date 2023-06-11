@@ -58,13 +58,16 @@
 }
 
 
-.overlay h2,
+.overlay h2{
+  font-size: 30px;
+}
 .overlay p {
-  padding-left: 10px; /* 왼쪽 여백 크기 조정 */
+  font-size: 20px;
 }
 
 .poster-container:hover .overlay {
   opacity: 1;
+  cursor: pointer;
 }
 
 .movie-info {
