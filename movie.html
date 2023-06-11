@@ -70,25 +70,32 @@
     <div id="detail-container">
       <div id="movie-details">
         <h2>시청 가능 OTT</h2>
-        <div id="movie-ott">
-        </div>
+        <div id="movie-ott"></div>
       </div>
     </div>
+
+    <!-- 코멘트 입력 div -->
     <div id="detail-container">
       <div id="movie-details">
         <h2 id="movie-title">코멘트</h2>
-        <span class="star">
-          ★★★★★
-          <span>★★★★★</span>
-          <input
-            type="range"
-            oninput="drawStar(this)"
-            value="1"
-            step="1"
-            min="0"
-            max="10"
-          />
-        </span>
+        <div class="container">
+          <div class="form">
+            <label for="username"></label>
+            <input type="text" id="username" name="username" />
+            <label for="password"></label>
+            <input type="password" id="password" name="password" />
+          </div>
+          <div class="comment-form">
+            <input
+              type="text"
+              id="comment"
+              name="comment"
+              placeholder="댓글을 입력하세요..."
+            />
+            <button type="submit">등록</button>
+          </div>
+        </div>
+
         <p><strong>이다형 </strong> ★ 4.7<br />최고의 영화입니다.</p>
         <p><strong>배고파요</strong> ★ 2.8<br />아쉬운 점이 많았다.</p>
       </div>
