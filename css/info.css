@@ -29,12 +29,15 @@ body {
   min-width: 720px; /* 최소 너비 설정 */
 }
 
-
 #detail-container > div:first-child {
   margin-right: 20px;
 }
 
-#trailer-container{
+#detail-container:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+#trailer-container {
   width: 100%;
   height: auto;
 }
@@ -47,14 +50,12 @@ body {
   display: flex;
   flex-direction: column;
   margin-right: 10px;
-}
-
-.form input {
-  margin-bottom: 3px;
+  margin-bottom: 55px;
 }
 
 .comment-form {
   display: flex;
+  align-items: center;
 }
 
 .comment-form input[type="text"] {
@@ -64,13 +65,40 @@ body {
 
 .comment-form button {
   width: 100px;
+  height: 50px;
+  margin-left: 10px;
 }
 
-#username,#password{
+#username, #password {
   width: 100px;
 }
 
-#comment{
+#comment {
   width: 500px;
   height: 60px;
 }
+
+/* 별점
+.star-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.star-rating .stars input[type="radio"] {
+  display: none;
+}
+
+.star-rating .stars label {
+  cursor: pointer;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('별 아이콘 이미지 경로');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.star-rating .stars input[type="radio"]:checked ~ label {
+  background-position: 0 -20px;
+} */

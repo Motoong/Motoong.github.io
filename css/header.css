@@ -68,7 +68,7 @@ body{
   border: none;
   padding: 5px;
   font-size: 14px;
-  width: 400px; /* 검색어 입력창 길이 조정 */
+  width: 300px; /* 검색어 입력창 길이 조정 */
 }
 
 .search-form button {
@@ -102,4 +102,27 @@ body{
 .container {
   margin: 0 20px; /* 네비게이션 바의 좌우 여백 */
 }
+
+/* 푸터 스타일 */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
 

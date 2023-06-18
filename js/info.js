@@ -19,6 +19,7 @@ fetch("movies.json")
       const plotElement = document.getElementById("movie-plot");
       const trailerElement = document.getElementById("movie-trailer");
       const ottElement = document.getElementById("movie-ott");
+      const starRatingElement = document.querySelector(".star span");
 
       // ott 이미지
       for (let i = 0; i < movie.ott.length; i++) {
@@ -38,6 +39,9 @@ fetch("movies.json")
       releaseYearElement.textContent = movie.release_year;
       nationalElement.textContent = movie.nation;
       plotElement.textContent = movie.plot;
+
+      // 별점 표시
+      drawStar(movie.star);
     } else {
       console.error("영화 정보를 찾을 수 없습니다:", movieTitle);
     }
@@ -46,8 +50,8 @@ fetch("movies.json")
     console.error("영화 정보를 불러오는 도중 오류가 발생했습니다:", error);
   });
 
-const drawStar = (target) => {
-  document.querySelector(`.star span`).style.width = `${target.value * 10}%`;
+const drawStar = (rating) => {
+  const starRatingElement = document.querySelector(".star span");
+  const starPercentage = (rating / 5) * 100;
+  starRatingElement.style.width = `${starPercentage}%`;
 };
-
-

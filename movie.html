@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>영화 상세 정보</title>
     <script src="js/info.js"></script>
+    <script src="js/comment.js"></script>
     <link rel="stylesheet" type="text/css" href="css/info.css" />
     <link rel="stylesheet" type="text/css" href="css/header.css" />
   </head>
@@ -53,8 +54,8 @@
       <div id="movie-details">
         <h1 id="movie-title"></h1>
         <p>
-          <strong>평점 :</strong><span class="star">★★★★★</span
-          ><span id="movie-star"></span>
+          <strong>평점 : </strong><span class="star" id="movie-star"></span>
+
         </p>
         <p><strong>감독 :</strong> <span id="movie-director"></span></p>
         <p><strong>출연 :</strong> <span id="movie-cast"></span></p>
@@ -79,26 +80,39 @@
       <div id="movie-details">
         <h2 id="movie-title">코멘트</h2>
         <div class="container">
-          <div class="form">
-            <label for="username"></label>
-            <input type="text" id="username" name="username" />
-            <label for="password"></label>
-            <input type="password" id="password" name="password" />
-          </div>
           <div class="comment-form">
-            <input
-              type="text"
-              id="comment"
-              name="comment"
-              placeholder="댓글을 입력하세요..."
-            />
-            <button type="submit">등록</button>
+            <div class="name-rating">
+              <div class="form">
+                <label for="username"></label>
+                <input type="text" id="username" name="username" placeholder="닉네임"/>
+              </div>
+              <div class="star-rating">
+                <label for="rating"></label>
+                <!-- <div id="rating" class="stars">
+                  <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+                  <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+                  <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+                  <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+                  <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+                </div> -->
+              </div>
+            </div>
+            <div class="comment-input">
+              <label for="comment"></label>
+              <textarea id="comment" name="comment" placeholder="댓글을 입력하세요..."></textarea>
+            </div>
+            <button type="button" onclick="submitComment()">등록</button>
           </div>
         </div>
-
-        <p><strong>이다형 </strong> ★ 4.7<br />최고의 영화입니다.</p>
-        <p><strong>배고파요</strong> ★ 2.8<br />아쉬운 점이 많았다.</p>
+    
+        <div id="comments"></div>
       </div>
     </div>
+
+    <footer class="footer">
+      <p>&copy; 2023 목원대학교 컴퓨터 공학과 <br>1851041 이다형. All rights reserved.</p>
+      <p>이용약관 | 개인정보처리방침</p>
+    </footer>
+    
   </body>
 </html>
