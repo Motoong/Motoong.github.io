@@ -12,7 +12,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; /* 요소 간의 간격을 설정 */
+  gap: 20px; 
 }
 
 #movie-info-container2 {
@@ -20,7 +20,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; /* 요소 간의 간격을 설정 */
+  gap: 20px;
 }
 
 .movie-info {
@@ -80,11 +80,11 @@
 }
 
 .movie-title {
-  margin: 0; /* 위아래 여백 제거 */
+  margin: 0; 
   padding-left: 10px;
-  font-family: 'IBM Plex Sans KR', sans-serif; /* 폰트 적용 */
-  overflow: hidden; /* 텍스트 넘침 처리 */
-  text-overflow: ellipsis; /* 넘친 텍스트에 대한 마침표 (...) 표시 */
-  white-space: nowrap; /* 줄바꿈 방지 */
-  font-size: 21px; /* 폰트 크기 조정 */
+  font-family: 'IBM Plex Sans KR', sans-serif;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+  white-space: nowrap; 
+  font-size: 21px; 
 }

@@ -3,11 +3,14 @@ const urlParams = new URLSearchParams(window.location.search);
 const movieTitle = decodeURIComponent(urlParams.get("id"));
 
 // 영화 정보를 가져와서 페이지에 표시합니다
-fetch("movies.json")
-  .then((response) => response.json())
-  .then((data) => {
-    const movie = data.find((movie) => movie.title === movieTitle);
-
+Promise.all([
+  fetch("movies.json").then((response) => response.json()),
+  fetch("movies2.json").then((response) => response.json()),
+])
+  .then(([data1, data2]) => {
+    const movie =
+      data1.find((movie) => movie.title === movieTitle) ||
+      data2.find((movie) => movie.title === movieTitle);
     if (movie) {
       const posterElement = document.getElementById("movie-poster");
       const titleElement = document.getElementById("movie-title");
@@ -17,9 +20,10 @@ fetch("movies.json")
       const releaseYearElement = document.getElementById("movie-release-year");
       const nationalElement = document.getElementById("movie-nation");
       const plotElement = document.getElementById("movie-plot");
+      const plotText = movie.plot.replace(/\n/g, "<br>");
+      
       const trailerElement = document.getElementById("movie-trailer");
       const ottElement = document.getElementById("movie-ott");
-      const starRatingElement = document.querySelector(".star span");
 
       // ott 이미지
       for (let i = 0; i < movie.ott.length; i++) {
@@ -38,7 +42,7 @@ fetch("movies.json")
       castElement.textContent = movie.cast.join(", ");
       releaseYearElement.textContent = movie.release_year;
       nationalElement.textContent = movie.nation;
-      plotElement.textContent = movie.plot;
+      plotElement.innerHTML = plotText;
 
       // 별점 표시
       drawStar(movie.star);
@@ -49,9 +53,3 @@ fetch("movies.json")
   .catch((error) => {
     console.error("영화 정보를 불러오는 도중 오류가 발생했습니다:", error);
   });
-
-const drawStar = (rating) => {
-  const starRatingElement = document.querySelector(".star span");
-  const starPercentage = (rating / 5) * 100;
-  starRatingElement.style.width = `${starPercentage}%`;
-};

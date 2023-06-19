@@ -1,29 +1,41 @@
 [
   {
-    "title": "가디언즈 오브 갤럭시: Volume 3",
-    "genre": ["액션"],
-    "director": "제임스 건",
-    "cast": ["크리스 프랫", "조 샐다나", "데이브 바티스타", "빈 디젤","브래들리 쿠퍼"],
-    "release_year": 2023,
-    "nation": "미국",
-    "plot": "‘가모라’를 잃고 슬픔에 빠져 있던 ‘피터 퀼’이 위기에 처한 은하계와 동료를 지키기 위해 다시 한번 가디언즈 팀과 힘을 모으고, 성공하지 못할 경우 그들의 마지막이 될지도 모르는 미션에 나서는 이야기",
-    "poster": "poster/gog3.jpg",
-    "star": "4.5",
-    "trailer":"https://www.youtube.com/embed/u3V5KDHRQvk?autoplay=1&mute=1&controls=0&loop=1&playlist=u3V5KDHRQvk",
-    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
-  },
-  {
     "title": "스파이더맨: 어크로스 더 유니버스",
     "genre": ["애니메이션"],
     "director": "조아킴 도스 샌토스",
     "cast": ["샤메익 무어(성우)", "브라이언 타이리 헨리(제퍼슨 데이비스)", "루나 로렌 벨레즈(리오 모랄레스)"],
     "release_year": 2023,
     "nation": "미국",
-    "plot": "여러 성장통을 겪으며 새로운 스파이더맨이 된 ‘마일스 모랄레스’. 그 앞에 다른 평행세계의 스파이더우먼 ‘ 그웬’이 다시 나타난다. 모든 차원의 멀티버스 속 스파이더맨들을 만나게 되지만, 질서에 대한 신념이 부딪히며 예상치 못한 균열이 생기는데…",
+    "plot": "새로운 스파이더맨이 된 ‘마일스 모랄레스’.\n그 앞에 다른 평행세계의 스파이더우먼 ‘ 그웬’이 다시 나타난다. 모든 차원의 멀티버스 속 스파이더맨들을 만나게 되지만, 질서에 대한 신념이 부딪히며 예상치 못한 균열이 생기는데…",
     "poster": "poster/spiderAcross.jpg",
     "star": "미정",
     "trailer":"https://www.youtube.com/embed/cqGjhVJWtEg?autoplay=1&mute=1&controls=0&loop=1&playlist=cqGjhVJWtEg",
-    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
-    
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]   
+  },
+  {
+    "title": "인디아나 존스: 운명의 다이얼",
+    "genre": ["액션/어드벤처"],
+    "director": "제임스 맨골드",
+    "cast": ["해리슨 포드", "피비 월러 브릿지", "안토니오 반데라스"],
+    "release_year": 2023.06,
+    "nation": "미국",
+    "plot": "모험의 또 다른 이름, 마침내 그가 돌아왔다\n\n1969년 뉴욕\n전설적인 모험가이자 고고학자 ‘인디아나 존스’ 앞에\n대녀 ‘헬레나’와 오랜 숙적 ‘위르겐 폴러’의 세력이 등장한다.",
+    "poster": "poster/indiana.jpg",
+    "star": "미정",
+    "trailer":"https://www.youtube.com/embed/cqGjhVJWtEg?autoplay=1&mute=1&controls=0&loop=1&playlist=cqGjhVJWtEg",
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]   
+  },
+  {
+    "title": "엘리멘탈",
+    "genre": ["애니메이션"],
+    "director": "터 손",
+    "cast": ["레아 루이스", "마무두 애시", "웬디 맥렌던-커비"],
+    "release_year": 2023.06,
+    "nation": "미국",
+    "plot": "불, 물, 공기, 흙 4개의 원소들이 살고 있는 ‘엘리멘트 시티’/n재치 있고 불처럼 열정 넘치는 ‘앰버'는 어느 날 우연히/n유쾌하고 감성적이며 물 흐르듯 사는 '웨이드'를 만나 특별한 우정을 쌓으며,\n지금껏 믿어온 모든 것들이 흔들리는 새로운 경험을 하게 되는데...",
+    "poster": "poster/elemental.jpg",
+    "star": "미정",
+    "trailer":"https://www.youtube.com/embed/cqGjhVJWtEg?autoplay=1&mute=1&controls=0&loop=1&playlist=cqGjhVJWtEg",
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]   
   }
 ]

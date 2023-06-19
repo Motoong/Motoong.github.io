@@ -16,8 +16,8 @@
     <ul class="menu">
       <li><a href="#">영화</a>
         <ul class="submenu">
-          <li><a href="#">예매순</a></li>
-          <li><a href="#">영화2</a></li>
+          <li><a href="#movie-info-container">극장 상영 영화</a></li>
+          <li><a href="#movie-info-container2">개봉 예정 영화</a></li>
           <li><a href="#">영화3</a></li>
         </ul>
       </li>
@@ -51,10 +51,28 @@
   <div id="movie-info-container"></div>
   <h2>개봉 예정 영화</h2>
   <div id="movie-info-container2"></div>
+
   <footer class="footer">
     <p>&copy; 2023 목원대학교 컴퓨터 공학과 <br>1851041 이다형. All rights reserved.</p>
     <p>이용약관 | 개인정보처리방침</p>
   </footer>
 
+  <script>
+    // 서브메뉴 스크롤 애니메이션
+    const submenuLinks = document.querySelectorAll('.submenu a');
+    submenuLinks.forEach((link) => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const targetId = link.getAttribute('href').substring(1); 
+        const targetElement = document.getElementById(targetId);
+        if (targetElement) {
+          window.scrollTo({
+            top: targetElement.offsetTop,
+            behavior: 'smooth',
+          });
+        }
+      });
+    });
+  </script>
 </body>
 </html>

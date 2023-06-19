@@ -72,15 +72,17 @@ body {
 
 .menu li:hover .submenu li {
   display: block;
-  margin-top: 8px;
+  margin-top: 15px;
 }
 
 .menu li:hover .submenu a {
   display: block;
-  color: #fff; /* 하위 메뉴 텍스트 색상 */
-  font-weight: normal; /* 하위 메뉴 텍스트 굵기 원래대로 */
-  font-size: 15px; /* 하위 메뉴 텍스트 크기 */
+  color: #fff; 
+  font-weight: normal; 
+  font-size: 20px; 
 }
+
+ /* 검색바 스타일 */
 
 .search-bar {
   flex-grow: 1;
@@ -93,9 +95,7 @@ body {
   align-items: center;
   background-color: #fff;
   border-radius: 20px;
-  /* 검색창 모서리 둥글게 */
   padding: 10px;
-  /* 검색어 입력창 크기 조정 */
 }
 
 .search-form input[type="text"] {
@@ -103,7 +103,6 @@ body {
   padding: 5px;
   font-size: 14px;
   width: 300px;
-  /* 검색어 입력창 길이 조정 */
 }
 
 .search-form button {
@@ -113,7 +112,6 @@ body {
   padding: 5px 10px;
   font-size: 14px;
   border-radius: 0 30px 30px 0;
-  /* 검색 버튼 모서리 둥글게 */
   cursor: pointer;
 }
 
@@ -136,8 +134,9 @@ body {
 
 .container {
   margin: 0 20px;
-  /* 네비게이션 바의 좌우 여백 */
 }
+
+/* 푸터 스타일 */
 
 .footer {
   background-color: #333;
@@ -156,6 +155,3 @@ body {
   text-decoration: none;
 }
 
-.footer a:hover {
-  text-decoration: underline;
-}

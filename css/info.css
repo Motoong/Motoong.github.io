@@ -26,7 +26,7 @@ body {
   border-radius: 15px;
   margin: 0 25%;
   padding: 0 5%;
-  min-width: 720px; /* 최소 너비 설정 */
+  min-width: 720px;
 }
 
 #detail-container > div:first-child {
@@ -78,27 +78,4 @@ body {
   height: 60px;
 }
 
-/* 별점
-.star-rating {
-  display: flex;
-  align-items: center;
-  margin-top: 10px;
-}
 
-.star-rating .stars input[type="radio"] {
-  display: none;
-}
-
-.star-rating .stars label {
-  cursor: pointer;
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url('별 아이콘 이미지 경로');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.star-rating .stars input[type="radio"]:checked ~ label {
-  background-position: 0 -20px;
-} */
