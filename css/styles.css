@@ -15,6 +15,14 @@
   gap: 20px; /* 요소 간의 간격을 설정 */
 }
 
+#movie-info-container2 {
+  background-color: #e7e7e7;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* 요소 간의 간격을 설정 */
+}
+
 .movie-info {
   background-color: #ffffff;
   width: 300px;

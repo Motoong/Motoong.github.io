@@ -2,6 +2,7 @@
 
 body {
   font-family: 'IBM Plex Sans KR', sans-serif;
+  margin-top: 100px;
 }
 
 .navbar {
@@ -71,13 +72,14 @@ body {
 
 .menu li:hover .submenu li {
   display: block;
+  margin-top: 8px;
 }
 
 .menu li:hover .submenu a {
   display: block;
   color: #fff; /* 하위 메뉴 텍스트 색상 */
   font-weight: normal; /* 하위 메뉴 텍스트 굵기 원래대로 */
-  font-size: 14px; /* 하위 메뉴 텍스트 크기 */
+  font-size: 15px; /* 하위 메뉴 텍스트 크기 */
 }
 
 .search-bar {
