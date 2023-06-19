@@ -10,7 +10,7 @@
     "poster": "poster/gog3.jpg",
     "star": "4.5",
     "trailer":"https://www.youtube.com/embed/u3V5KDHRQvk?autoplay=1&mute=1&controls=0&loop=1&playlist=u3V5KDHRQvk",
-    "ott": ["icon/netflix.jpg","icon/dplus.jpg","icon/wavve.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
     "title": "스파이더맨: 어크로스 더 유니버스",
@@ -23,7 +23,7 @@
     "poster": "poster/spiderAcross.jpg",
     "star": "미정",
     "trailer":"https://www.youtube.com/embed/cqGjhVJWtEg?autoplay=1&mute=1&controls=0&loop=1&playlist=cqGjhVJWtEg",
-    "ott": ["icon/dplus.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
     
   },
   {
@@ -37,7 +37,7 @@
     "poster": "poster/notimetodie.jpg",
     "star": "3.4",
     "trailer":"https://www.youtube.com/embed/kCzbDJ2G_B8?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.jpg","icon/dplus.jpg","icon/dplus.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
     
   },
   {
@@ -51,7 +51,7 @@
     "poster": "poster/inception.jpg",
     "star": "4.8",
     "trailer":"https://www.youtube.com/embed/Uj7z5HH9nfs?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.jpg","icon/dplus.jpg","icon/dplus.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
     
   },
   {
@@ -65,7 +65,7 @@
     "poster": "poster/parasite.jpg",
     "star": "4.3",
     "trailer":"https://www.youtube.com/embed/jBdRhhSt3Bc?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.jpg","icon/dplus.jpg","icon/dplus.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
     "title": "어바웃 타임",
@@ -78,7 +78,7 @@
     "poster": "poster/abouttime.jpg",
     "star": "4.8",
     "trailer":"https://www.youtube.com/embed/tnyWkyDGWuM?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.jpg","icon/dplus.jpg","icon/dplus.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
     "title": "어벤져스:엔드게임",
@@ -96,7 +96,7 @@
     "poster": "poster/avengers_endgame.jpg",
     "star": "4.3",
     "trailer":"https://www.youtube.com/embed/Ko2NWhXI9e8?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.jpg","icon/dplus.jpg","icon/dplus.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
     "title": "노인을 위한 나라는 없다",
@@ -109,7 +109,7 @@
     "poster": "poster/oldman.jpg",
     "star": "4.8",
     "trailer":"https://www.youtube.com/embed/1BFDdxMk-JQ?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.jpg","icon/dplus.jpg","icon/dplus.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
     "title": "미션 임파서블: 폴아웃",
@@ -123,7 +123,7 @@
     "poster": "poster/MIfallout.jfif",
     "star": "4.8",
     "trailer":"https://www.youtube.com/embed/gNJgMo14XWU?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.jpg","icon/dplus.jpg","icon/dplus.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
     "title": "라이프 오브 파이",
@@ -136,7 +136,7 @@
     "poster": "poster/lifeOfPI.jpg",
     "star": "4.8",
     "trailer":"https://www.youtube.com/embed/3mMN693-F3U?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.jpg","icon/dplus.jpg","icon/dplus.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
     "title": "더 퍼스트 슬램덩크",
@@ -154,7 +154,7 @@
     "poster": "poster/slamdunk.jpg",
     "star": "4.1",
     "trailer":"https://www.youtube.com/embed/nhjdgKVEa_g?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.jpg","icon/dplus.jpg","icon/dplus.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
     "title": "돈 룩 업",
@@ -167,7 +167,7 @@
     "poster": "poster/dontlookup.jpg",
     "star": "4.1",
     "trailer":"https://www.youtube.com/embed/zZaH7ENAkoY?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.jpg","icon/dplus.jpg","icon/dplus.jpg"]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
     "title": "탑건: 매버릭",
@@ -181,6 +181,6 @@
     "poster": "poster/topgun.jpg",
     "star": "4.1",
     "trailer":"https://www.youtube.com/embed/Mrj9XACVJ8U?autoplay=1&mute=1&controls=0",
-    "ott": [""]
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   }
 ]
