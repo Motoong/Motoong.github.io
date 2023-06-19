@@ -6,11 +6,13 @@ const movieTitle = decodeURIComponent(urlParams.get("id"));
 Promise.all([
   fetch("movies.json").then((response) => response.json()),
   fetch("movies2.json").then((response) => response.json()),
+  fetch("movies3.json").then((response) => response.json())
 ])
-  .then(([data1, data2]) => {
+  .then(([data1, data2, data3]) => {
     const movie =
       data1.find((movie) => movie.title === movieTitle) ||
-      data2.find((movie) => movie.title === movieTitle);
+      data2.find((movie) => movie.title === movieTitle) ||
+      data3.find((movie) => movie.title === movieTitle);
     if (movie) {
       const posterElement = document.getElementById("movie-poster");
       const titleElement = document.getElementById("movie-title");
@@ -20,8 +22,7 @@ Promise.all([
       const releaseYearElement = document.getElementById("movie-release-year");
       const nationalElement = document.getElementById("movie-nation");
       const plotElement = document.getElementById("movie-plot");
-      const plotText = movie.plot.replace(/\n/g, "<br>");
-      
+      const plotText = movie.plot.replace(/\n/g, "<br>");  
       const trailerElement = document.getElementById("movie-trailer");
       const ottElement = document.getElementById("movie-ott");
 

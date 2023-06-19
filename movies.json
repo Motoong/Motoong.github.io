@@ -13,34 +13,6 @@
     "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
-    "title": "007 노 타임 투 다이",
-    "genre": ["액션"],
-    "director": "캐리 조지 후쿠나가",
-    "cast": ["다니엘 크레이그", "레아 세두", "라미 말렉","라샤나 린치"],
-    "release_year": 2010,
-    "nation": "미국",
-    "plot": "꿈 속에서 현실을 조작하는 국제 암살자들의 이야기",
-    "poster": "poster/notimetodie.jpg",
-    "star": "3.4",
-    "trailer":"https://www.youtube.com/embed/kCzbDJ2G_B8?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
-    
-  },
-  {
-    "title": "인셉션",
-    "genre": ["SF","스릴러"],
-    "director": "크리스토퍼 놀란",
-    "cast": ["레오나르도 디카프리오", "조셉 고든-레빗", "엘렌 페이지"],
-    "release_year": 2010,
-    "nation": "미국",
-    "plot": "꿈 속에서 현실을 조작하는 국제 암살자들의 이야기",
-    "poster": "poster/inception.jpg",
-    "star": "4.8",
-    "trailer":"https://www.youtube.com/embed/Uj7z5HH9nfs?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
-    
-  },
-  {
     "title": "기생충",
     "genre": ["스릴러","드라마"],
     "director": "봉준호",
@@ -85,19 +57,6 @@
     "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
-    "title": "노인을 위한 나라는 없다",
-    "genre": ["스릴러"],
-    "director": "에단 코엔",
-    "cast": ["토미 리 존스", "하비에르 바르뎀", "조쉬 브롤린"],
-    "release_year": 2007,
-    "nation": "미국",
-    "plot": "르웰린 모스(조쉬 브롤린)는 총격전이 벌어진 끔찍한 현장에서 우연히 이백만 달러가 들어있는 가방을 손에 넣는다. 그러나 이 가방을 찾는 또 다른 이가 있었으니 바로 살인마 안톤 시거(하비에르 바르뎀). 그리고 이들의 뒤를 쫓는 보안관 벨(토미 리 존스)까지 합세하면서 누구도 피할 수 없는, 목숨을 건 추격전이 시작된다. ​",
-    "poster": "poster/oldman.jpg",
-    "star": "4.8",
-    "trailer":"https://www.youtube.com/embed/1BFDdxMk-JQ?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
-  },
-  {
     "title": "미션 임파서블: 폴아웃",
     "genre": ["액션", "스릴러", "모험"],
     "director": "크리스토퍼 맥쿼리",
@@ -109,19 +68,6 @@
     "poster": "poster/MIfallout.jfif",
     "star": "4.8",
     "trailer":"https://www.youtube.com/embed/gNJgMo14XWU?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
-  },
-  {
-    "title": "라이프 오브 파이",
-    "genre": ["드라마"],
-    "director": "이안",
-    "cast": ["수라즈 샤르마", "이르판 칸", "빌 나이"],
-    "release_year": 2012,
-    "nation": "미국",
-    "plot": "호랑이",
-    "poster": "poster/lifeOfPI.jpg",
-    "star": "4.8",
-    "trailer":"https://www.youtube.com/embed/3mMN693-F3U?autoplay=1&mute=1&controls=0",
     "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   },
   {
@@ -140,20 +86,7 @@
     "poster": "poster/slamdunk.jpg",
     "star": "4.1",
     "trailer":"https://www.youtube.com/embed/nhjdgKVEa_g?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
-  },
-  {
-    "title": "돈 룩 업",
-    "genre": ["코미디", "드라마", "SF"],
-    "director": "아담 맥케이",
-    "cast": ["레오나르도 디카프리오", "제니퍼 로렌스"],
-    "release_year": 2021,
-    "nation": "미국",
-    "plot": "지구를 향해 돌진하는 혜성의 존재를 발견한 두 천문학자. 임박한 재앙을 전 인류에 경고하려 언론사를 찾아다니기 시작한다. 하지만 다른 데 정신이 팔린 세상은 시큰둥한 반응뿐. 그래서요?",
-    "poster": "poster/dontlookup.jpg",
-    "star": "4.1",
-    "trailer":"https://www.youtube.com/embed/zZaH7ENAkoY?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
+    "ott": ["icon/wavve.png"]
   },
   {
     "title": "탑건: 매버릭",
@@ -168,19 +101,5 @@
     "star": "4.1",
     "trailer":"https://www.youtube.com/embed/Mrj9XACVJ8U?autoplay=1&mute=1&controls=0",
     "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
-  },
-  {
-    "title": "탑건: 매버릭",
-    "genre": ["액션", "드라마"],
-    "director": "조셉 코신스키",
-    "cast": ["톰 크루즈","마일스 텔러", "제니퍼 코넬리", "존 햄"],
-    "release_year": 2022,
-    "nation": "미국",
-    "runningTime":"2시간 11분",
-    "plot": "한순간의 실수도 용납되지 않는 하늘 위,\n가장 압도적인 비행이 시작된다!\n최고의 파일럿이자 전설적인 인물 매버릭(톰 크루즈)은 자신이 졸업한 훈련학교 교관으로 발탁된다. 그의 명성을 모르던 팀원들은 매버릭의 지시를 무시하지만 실전을 방불케 하는 상공 훈련에서 눈으로 봐도 믿기 힘든 전설적인 조종 실력에 모두가 압도된다.\n매버릭의 지휘아래 견고한 팀워크를 쌓아가던 팀원들에게 국경을 뛰어넘는 위험한 임무가 주어지자 매버릭은 자신이 가르친 동료들과 함께 마지막이 될 지 모를 하늘 위 비행에 나서는데…",
-    "poster": "poster/topgun.jpg",
-    "star": "4.1",
-    "trailer":"https://www.youtube.com/embed/Mrj9XACVJ8U?autoplay=1&mute=1&controls=0",
-    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
-  }
+  }  
 ]

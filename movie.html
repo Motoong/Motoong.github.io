@@ -10,19 +10,37 @@
     <link rel="stylesheet" type="text/css" href="css/header.css" />
   </head>
   <body>
+    <!-- 헤더 -->
     <div class="navbar">
       <div class="logo">
-        <a href="index.html"><img src="logo.png" alt="사이트 로고" /></a>
+        <a href="index.html"><img src="logo.png" alt="사이트 로고"></a>
       </div>
       <ul class="menu">
-        <li><a href="#">영화</a></li>
-        <li><a href="#">드라마</a></li>
-        <li><a href="#">애니메이션</a></li>
+        <li><a href="#">영화</a>
+          <ul class="submenu">
+            <li><a href="#movie-info-container">극장 상영 영화</a></li>
+            <li><a href="#movie-info-container2">개봉 예정 영화</a></li>
+            <li><a href="#movie-info-container3">영화3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">드라마</a>
+          <ul class="submenu">
+            <li><a href="#">드라마1</a></li>
+            <li><a href="#">드라마2</a></li>
+            <li><a href="#">드라마3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">애니메이션</a>
+          <ul class="submenu">
+            <li><a href="#">일본 애니메이션</a></li>
+            <li><a href="#">국내 애니메이션</a></li>
+          </ul>
+        </li>
       </ul>
       <div class="spacer"></div>
       <div class="search-bar">
         <form class="search-form" action="#" method="get">
-          <input type="text" name="search" placeholder="검색어 입력" />
+          <input type="text" name="search" placeholder="검색어 입력">
           <button type="submit">검색</button>
         </form>
       </div>
@@ -88,13 +106,6 @@
               </div>
               <div class="star-rating">
                 <label for="rating"></label>
-                <!-- <div id="rating" class="stars">
-                  <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
-                  <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
-                  <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
-                  <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
-                  <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
-                </div> -->
               </div>
             </div>
             <div class="comment-input">

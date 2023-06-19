@@ -21,9 +21,9 @@
     "nation": "미국",
     "plot": "모험의 또 다른 이름, 마침내 그가 돌아왔다\n\n1969년 뉴욕\n전설적인 모험가이자 고고학자 ‘인디아나 존스’ 앞에\n대녀 ‘헬레나’와 오랜 숙적 ‘위르겐 폴러’의 세력이 등장한다.",
     "poster": "poster/indiana.jpg",
-    "star": "미정",
-    "trailer":"https://www.youtube.com/embed/cqGjhVJWtEg?autoplay=1&mute=1&controls=0&loop=1&playlist=cqGjhVJWtEg",
-    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]   
+    "star": "4.8",
+    "trailer":"https://www.youtube.com/embed/eQfMbSe7F2g?autoplay=1&mute=1&controls=0",
+    "ott": ["icon/netflix.png","icon/wavve.png"]   
   },
   {
     "title": "엘리멘탈",
@@ -35,7 +35,20 @@
     "plot": "불, 물, 공기, 흙 4개의 원소들이 살고 있는 ‘엘리멘트 시티’/n재치 있고 불처럼 열정 넘치는 ‘앰버'는 어느 날 우연히/n유쾌하고 감성적이며 물 흐르듯 사는 '웨이드'를 만나 특별한 우정을 쌓으며,\n지금껏 믿어온 모든 것들이 흔들리는 새로운 경험을 하게 되는데...",
     "poster": "poster/elemental.jpg",
     "star": "미정",
-    "trailer":"https://www.youtube.com/embed/cqGjhVJWtEg?autoplay=1&mute=1&controls=0&loop=1&playlist=cqGjhVJWtEg",
+    "trailer":"https://www.youtube.com/embed/hXzcyx9V0xw?autoplay=1&mute=1&controls=0",
     "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]   
+  },
+  {
+    "title": "귀공자",
+    "genre": ["액션"],
+    "director": "박훈정",
+    "cast": ["김선호", "강태주", "김강우"],
+    "release_year": 2023.06,
+    "nation": "한국",
+    "plot": "필리핀에서 불법 경기장을 전전하며 병든 어머니와 살아가는 복싱 선수 ‘마르코’.\n어머니의 수술비 마련을 위해 평생 본 적 없는 아버지를 만나러 한국으로 향하던\n그의 앞에 정체불명의 남자 ‘귀공자’가 나타나 그를 추격하기 시작한다.\n",
+    "poster": "poster/childe.jpg",
+    "star": "4.8",
+    "trailer":"https://www.youtube.com/embed/Obc6ecquoA0?autoplay=1&mute=1&controls=0",
+    "ott": ["icon/netflix.png","icon/dplus.png","icon/wavve.png"]
   }
 ]

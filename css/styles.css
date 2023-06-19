@@ -7,20 +7,13 @@
   font-family: 'IBM Plex Sans KR', sans-serif;
 }
 
-#movie-info-container {
+#movie-info-container,#movie-info-container2,#movie-info-container3  {
   background-color: #e7e7e7;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px; 
-}
-
-#movie-info-container2 {
-  background-color: #e7e7e7;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  padding: 0 200px;
 }
 
 .movie-info {
